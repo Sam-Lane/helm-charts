@@ -1,0 +1,2 @@
+1. Exec into this pod with:
+kubectl -n {{ .Release.Namespace }} exec -it {{ .Release.Name }} -- sh
